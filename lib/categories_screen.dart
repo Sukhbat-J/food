@@ -12,7 +12,7 @@ class CategoriesScreen extends StatelessWidget {
         title: const Text('Хоолны жор'),
       ),
       body: GridView(
-        padding: const EdgeInsets.all(25),
+        padding: const EdgeInsets.all(20),
         gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
           //grid iin design//
           maxCrossAxisExtent: 200,

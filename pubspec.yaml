@@ -74,19 +74,19 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
 fonts:
-     - family: Opensans
+     - family: Nunito
        fonts:
-         - asset: assets/fonts/OpenSans-Regular.ttf
-         - asset: assets/fonts/OpenSans-Bold.ttf
+         - asset: assets/fonts/Nunito-Regular.ttf
+         - asset: assets/fonts/Nunito-Semibold.ttf
            weight: 700 
-         - asset: assets/fonts/OpenSans-Bold.tff
+         - asset: assets/fonts/Nunito-Medium.tff
            weight: 900
-     - family: Quicksand
+     - family: Nunito
        fonts:
-         - asset: assets/fonts/Quicksand-Light.ttf
-         - asset: assets/fonts/Quicksand-Medium.ttf
+         - asset: assets/fonts/Nunito-Light.ttf
+         - asset: assets/fonts/Nunito-ExtraLight.ttf
            weight: 700
-         - asset: assets/fonts/Quicksand-Regular.tff
+         - asset: assets/fonts/Nunito-VariableFont_wght.tff
            weight: 300 
            style: italic 
   #

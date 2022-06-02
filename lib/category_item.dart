@@ -13,8 +13,8 @@ class CategoryItem extends StatelessWidget {
       padding: const EdgeInsets.all(15),
       decoration: BoxDecoration(
         gradient: LinearGradient(
-                      colors: [color,color.withOpacity(0.8)],
-                      begin: Alignment.bottomLeft,
+                      colors: [color,color.withOpacity(0.7)],
+                      begin: Alignment.bottomRight,
                       end: Alignment.topRight,
                       stops: const [0.4, 0.7],
                       tileMode: TileMode.repeated,),

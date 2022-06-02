@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'Хоолны жор',
       theme: ThemeData(
         canvasColor: const Color.fromRGBO(255, 254, 224, 1),
-        fontFamily: 'Quicksand',
+        fontFamily: 'Nunito',
         colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.red)
             .copyWith(secondary: const Color.fromARGB(255, 110, 190, 255)),
         textTheme: ThemeData.light().textTheme.copyWith(
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
               ),
               titleSmall: const TextStyle(
                 fontSize: 20,
-                fontFamily: 'Quicksand',
+                fontFamily: 'Nunito',
                 fontWeight: FontWeight.normal,
               ),
             ),

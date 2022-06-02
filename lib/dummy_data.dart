@@ -16,12 +16,12 @@ const DUMMY_CATEGORIES = [
   Category(
     id: 'c3',
     title: 'Гамбургер',
-    color: Color.fromARGB(255, 245, 179, 80),
+    color: Color.fromARGB(255, 248, 205, 33),
   ),
   Category(
     id: 'c4',
     title: 'Герман',
-    color: Color.fromARGB(255, 245, 225, 165),
+    color: Color.fromARGB(255, 238, 238, 10),
   ),
   Category(
     id: 'c5',
