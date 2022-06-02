@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Хоолны жор',
       theme: ThemeData(
-        canvasColor: const Color.fromRGBO(255, 254, 224, 1),
+        canvasColor: const Color.fromARGB(255, 250, 239, 181),
         fontFamily: 'Nunito',
         colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.red)
             .copyWith(secondary: const Color.fromARGB(255, 110, 190, 255)),
@@ -30,6 +30,7 @@ class MyApp extends StatelessWidget {
               ),
             ),
       ),
+      
       home: const CategoriesScreen(),
     );
   }

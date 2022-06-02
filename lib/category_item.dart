@@ -9,16 +9,16 @@ class CategoryItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container( 
+    return Container(
       padding: const EdgeInsets.all(15),
       decoration: BoxDecoration(
         gradient: LinearGradient(
-                      colors: [color,color.withOpacity(0.7)],
-                      begin: Alignment.bottomRight,
-                      end: Alignment.topRight,
-                      stops: const [0.4, 0.7],
-                      tileMode: TileMode.repeated,),
-        
+          colors: [color, color.withOpacity(0.7)],
+          begin: Alignment.bottomRight,
+          end: Alignment.topRight,
+          stops: const [0.4, 0.7],
+          tileMode: TileMode.repeated,
+        ),
         borderRadius: BorderRadius.circular(15),
       ),
       child: Text(
