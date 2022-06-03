@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:food/categories_screen.dart';
 
+
 void main() {
-  runApp(MyApp());
+  runApp(MaterialApp(home: MyApp(),
+  ));
 }
 
 // ignore: use_key_in_widget_constructors
@@ -35,3 +37,5 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+
